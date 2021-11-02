@@ -1,5 +1,5 @@
 # :game_die: Deterministic Dices
-A deterministically dice throwing system for synchronizing multiplayer games in Unity Engine
+A deterministically dice throwing system for synchronizing multiplayer games in **Unity Engine**
 
 ## :ticket: Introduction
 In multiplayer games the values sent to each client must be obtained and passed in a deterministic way to avoid possible desynchronization between players. In a 3D game, dices are commonly created using engine physics to get the results, however, this implies getting results in a non-deterministic way, since players may receive incorrect values if they depend on the object's gravity and mass. . Therefore, this code was created thinking about making the process of rolling dice deterministic.
